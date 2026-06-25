@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Claude Code
+# .claude/
+
+# Output artifacts (generated during pipeline)
+output/02-research/
+output/02-copy/
+output/03-design/
+output/04-frontend/
+output/06-reports/
+
+# Keep structure with .gitkeep
+!output/02-research/.gitkeep
+!output/02-copy/.gitkeep
+!output/03-design/.gitkeep
+!output/04-frontend/.gitkeep
+!output/06-reports/.gitkeep
