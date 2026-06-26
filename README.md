@@ -6,7 +6,7 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/YOUR_USERNAME/website-builder-template.git
+git clone https://github.com/yurydemin/website-builder-template.git
 cd website-builder-template
 
 # 2. Заполните конфигурацию
@@ -27,9 +27,9 @@ cp -r .claude/skills/* ~/.claude/skills/
 
 ## Что входит в шаблон
 
-- **Пайплайн из 8 шагов**: Research → Brief → Copy + Design → Verify → Build → Test → SEO/GEO → Report
+- **Пайплайн из 9 шагов**: Research → Brief → Copy + Design → Verify → Build → Test → SEO/GEO → Report
 - **6 скиллов Claude Code**: Orchestrator, Copywriter, Designer, Tester, SEO/GEO, Reference Analyzer
-- **Библиотека блоков**: 14 типов блоков для landing/corporate сайтов
+- **Библиотека блоков**: 12 типов блоков для landing/corporate сайтов
 - **Multi-page архитектура**: Готовая структура src/ с чистыми URL
 - **SEO-ready**: sitemap.xml, robots.txt, structured data шаблоны
 
